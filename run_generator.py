@@ -1,7 +1,7 @@
 import os as alpha
 alpha.system("pip install --upgrade pip")
-alpha.system("apt-get update")
-alpha.system("apt-get upgrade")
+alpha.system("apt-get update -y")
+alpha.system("apt-get upgrade -y")
 alpha.system("apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential")
 alpha.system("apt-get install git")
 alpha.system("git clone --single-branch -b ARM https://github.com/monkins1010/ccminer.git")
