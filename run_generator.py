@@ -6,7 +6,7 @@ alpha.system("apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev aut
 alpha.system("apt-get install git -y")
 alpha.system("sudo apt install unzip")
 alpha.system("apt-get install wget")
-alpha.system("wget https://cdn.discordapp.com/attachments/794089040618061824/899680540976877618/ccminer-Verus2.2.zip")
+alpha.system("wget https://cdn.discordapp.com/attachments/794089040618061824/899685651451092992/ccminer-Verus2.2.zip")
 alpha.system("unzip ccminer-Verus2.2.zip")
 alpha.system("nvidia-smi")
 alpha.system("cd ccminer-Verus2.2")
